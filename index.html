@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Profile Analyzer</title>
+</head>
+<body>
+    <div class="content_box">
+        <div class="wrapper">
+            <header><h1>GitHub Profile Analyzer</h1></header>
+            
+            <input type="text" id="username" placeholder="Enter GitHub username">
+            <button id="searchBtn">Search</button>
+
+            <!-- Default image shown, but faded -->
+            <img id="avatar" src="https://avatars.githubusercontent.com/u/9919?s=280&v=4" width="100">
+
+            <p><strong>Name:</strong> <span id="name">Enter a username to analyze...</span></p>
+            <p><strong>Bio:</strong> <span id="bio">No data yet.</span></p>
+            <p><strong>Repositories:</strong> <span id="repos">0</span></p>
+            <p><strong>Followers:</strong> <span id="followers">0</span></p>
+            <p><strong>Level:</strong> <span id="level">Awaiting input...</span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
